@@ -1,10 +1,7 @@
 # The AAA ABox Abduction Solver for Windows
 
-Corrected version of JAVA project for windows. Original website and code: http://dai.fmph.uniba.sk/~pukancova/aaa/
+Corrected version of JAVA project for windows.| [Original website and code version](http://dai.fmph.uniba.sk/~pukancova/aaa/) | [Paper](https://link.springer.com/article/10.1007/s13218-020-00685-4) | [ReadMe](http://dai.fmph.uniba.sk/~pukancova/aaa/version-0.12-beta/readme.txt)
 
-Paper: 
-
-## Download family.owl
 
 
 ## Download Jar file
@@ -22,10 +19,12 @@ To execute the previous line, it's necessary to download [family.owl](https://dr
 
 ## Download Java source code
 
+The actual AAA implementation is located in:
+
+- examples/src/main/java/MHS
+- examples/src/main/java/abductiveReasoning
+- examples/src/main/java/tableauReasoning
+
+In adductiveReasoning is the AAA.java file.
+
 [JAVA code](https://drive.google.com/file/d/130gC0mRZYTypIX-JHI4NrY_2X8Wm__ii/view?usp=sharing)
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
